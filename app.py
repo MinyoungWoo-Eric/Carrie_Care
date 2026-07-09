@@ -10,7 +10,7 @@ from zoneinfo import ZoneInfo
 
 import streamlit as st
 
-from core.content import (
+from content import (
     START_DATE,
     END_DATE,
     ROLES,
@@ -20,7 +20,7 @@ from core.content import (
     items_for_date,
     items_by_role,
 )
-from core.storage import create_store
+from storage import create_store
 
 KST = ZoneInfo("Asia/Seoul")
 
