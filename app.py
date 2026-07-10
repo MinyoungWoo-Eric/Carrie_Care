@@ -287,5 +287,4 @@ with tab_roles:
 # ── 탭 4: 전체 매뉴얼 (원문 그대로) ──────────────────────
 with tab_manual:
     st.markdown("#### 📖 캐리 케어 매뉴얼 원문 전체")
-    st.caption("원문을 한 줄도 빠짐없이 그대로 담았어요.")
     st.text(MANUAL_TEXT)
